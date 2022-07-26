@@ -1,0 +1,81 @@
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: blanchedalmond;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+	height: 40vw;
+	width: 100vw;
+}
+
+h1 {
+	padding-top: 2.5vw;
+	background-color: cornflowerblue;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 5vw;
+	height: 7vw;
+}
+
+#img-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: midnightblue;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+	width: 100vw;
+	margin: 1vw;
+	padding-top: 5vw;
+}
+
+img {
+	height: 450px;
+	width: 450px;
+	padding: 1vw;
+	margin: 1vw;
+	border-style: solid;
+	border-width: 4px;
+}
+
+#show-results-btn {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	border-style: solid;
+	border-color: red;
+	background-color: midnightblue;
+	color: blanchedalmond;
+	border-width: 1px;
+	font-size: 1.5vw;
+	padding-bottom: 1px;
+	height: 2vw;
+	width: 9vw;
+}
+
+
+#results-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-color: red;
+	margin: 1vw;
+}
+
+footer {
+	border-color: red;
+	border-width: 2px;
+	border-style: solid;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 1vw;
+	height: 2vw;
+	padding-top: 1vw;
+}
