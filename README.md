@@ -10,6 +10,8 @@
 
 ### Reflections and Comments
 
+Collaborated with Jose and Adriane for creating the while loop image generator that prevents repeat image rendering from round to round. 
+
 #### What do we need?
 
 - Array of pics of products
