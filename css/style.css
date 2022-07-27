@@ -3,10 +3,10 @@ main {
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: blanchedalmond;
-	border-color: red;
+	border-color: black;
 	border-style: solid;
 	border-width: 2px;
-	height: 40vw;
+	height: 45vw;
 	width: 100vw;
 }
 
@@ -15,7 +15,8 @@ h1 {
 	background-color: cornflowerblue;
 	display: flex;
 	justify-content: space-around;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bolder ;
 	font-size: 5vw;
 	height: 7vw;
 }
@@ -26,7 +27,7 @@ h1 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	background-color: midnightblue;
-	border-color: red;
+	border-color: black;
 	border-style: solid;
 	border-width: 2px;
 	width: 100vw;
@@ -45,31 +46,32 @@ img {
 
 #show-results-btn {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: row;
 	border-style: solid;
-	border-color: red;
+	border-color: black;
 	background-color: midnightblue;
 	color: blanchedalmond;
 	border-width: 1px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.5vw;
-	padding-bottom: 1px;
-	height: 2vw;
+	margin-left: 30vw;
+	padding: .5vw;
+	height: 2.5vw;
 	width: 9vw;
 }
 
 
 #results-list {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
-	border-color: red;
+	border-color: black;
 	margin: 1vw;
 }
 
 footer {
-	border-color: red;
+	border-color: black;
 	border-width: 2px;
 	border-style: solid;
 	display: flex;
@@ -78,4 +80,24 @@ footer {
 	font-size: 1vw;
 	height: 2vw;
 	padding-top: 1vw;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2vw;
+	padding-right: 2vw;
+}
+
+canvas {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1200px;
+	margin-top: 2vw;
+
+	padding-right: 2vw;
 }
