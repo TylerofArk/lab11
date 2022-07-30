@@ -14,7 +14,7 @@ let imgTwo = document.getElementById('img-two');
 let imgThree = document.getElementById('img-three');
 
 let resultsBtn = document.getElementById('show-results-btn');
-// let resultsList = document.getElementById('results-list');
+
 
 // *** LOCAL STORAGE CONTINUES ***
 
@@ -232,11 +232,6 @@ function renderChart() {
 
   new Chart(canvasElem, myObj);
 }
-
-
-// const ctx = document.getElementById('myChart').getContext('2d');
-
-
 
 // *** EVENT LISTENERS ***
 imgContainer.addEventListener('click', handleClick);

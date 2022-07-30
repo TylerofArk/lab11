@@ -6,7 +6,7 @@ main {
 	border-color: black;
 	border-style: solid;
 	border-width: 2px;
-	height: 45vw;
+	height: 70vw;
 	width: 100vw;
 }
 
@@ -55,7 +55,7 @@ img {
 	border-width: 1px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.5vw;
-	margin-left: 30vw;
+	margin-left: 34vw;
 	padding: .5vw;
 	height: 2.5vw;
 	width: 9vw;
@@ -99,5 +99,5 @@ canvas {
 	width: 1200px;
 	margin-top: 2vw;
 
-	padding-right: 2vw;
+	padding-right: 10vw;
 }
